@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+    <title>Demo</title>
+    <script type="application/javascript">
+        function updateNumber() {
+            // Call the window.increment function and get the result
+            const result = window.increment();
+
+            // Find the span with id 'number' and update its content with the result
+            document.getElementById("number").innerText = result;
+        }
+
+        function turnRed() {
+            window.makeRed();
+        }
+    </script>
+</head>
+<body>
+    <h1>Demo</h1>
+    <span id="number"></span>
+    <br>
+    <button onclick="updateNumber()">Increment</button><button onclick="turnRed()">Turn red</button>
+</body>
+</html>

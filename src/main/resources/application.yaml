@@ -1,0 +1,4 @@
+particle:
+  window:
+    minimum-width: 1280
+    minimum-height: 800
