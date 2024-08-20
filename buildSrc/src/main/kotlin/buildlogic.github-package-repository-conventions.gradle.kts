@@ -4,7 +4,7 @@ plugins {
 
 repositories {
     maven {
-        name = "GitHubPackages"
+        name = "Particle Packages"
         url = uri("https://maven.pkg.github.com/bitfist/particle")
         credentials {
             username = project.findProperty("GPR_USER") as String? ?: System.getenv("GITHUB_ACTOR")
@@ -12,7 +12,7 @@ repositories {
         }
     }
     maven {
-        name = "GitHubPackages"
+        name = "Particle Spring Boot Starter Packages"
         url = uri("https://maven.pkg.github.com/bitfist/particle-spring-boot-starter")
         credentials {
             username = project.findProperty("GPR_USER") as String? ?: System.getenv("GITHUB_ACTOR")
