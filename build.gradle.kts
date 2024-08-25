@@ -6,7 +6,7 @@ plugins {
 }
 
 dependencies {
-	api("io.github.bitfist:particle-spring-boot-starter:0.1.0")
+	api("io.github.bitfist:particle-spring-boot-starter:0.1.2")
 
 	implementation("org.springframework.boot:spring-boot-starter")
 	implementation("com.fasterxml.jackson.core:jackson-databind")
