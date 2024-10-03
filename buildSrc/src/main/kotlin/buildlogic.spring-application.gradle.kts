@@ -5,6 +5,8 @@ plugins {
     id("org.springframework.boot")
 }
 
+val libs = the<org.gradle.accessors.dm.LibrariesForLibs>()
+
 dependencies {
-    implementation(platform("org.springframework.boot:spring-boot-dependencies:3.3.2"))
+    implementation(platform(libs.springBootPlatform))
 }
