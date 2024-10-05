@@ -1,6 +1,6 @@
 [versions]
 springBoot = "3.3.4"
-swt = "3.126.0"
+swt = "3.127.0"
 
 [libraries]
 particleSpringBootStarter = { module = "io.github.bitfist:particle-spring-boot-starter", version = "0.1.4" }
